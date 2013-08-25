@@ -9,3 +9,9 @@
 
 (setq inhibit-startup-message t)
 
+;; highlight braces
+(show-paren-mode 1)
+(setq show-paren-style 'mixed)
+(set-face-background 'show-paren-match-face "grey")
+(set-face-foreground 'show-paren-match-face "black")
+
