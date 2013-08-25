@@ -6,3 +6,6 @@
 (when oldemacs-p
   (defvar user-emacs-directory
     (expand-file-name (concat (getenv "HOME") "/.emacs.d/"))))
+
+(setq inhibit-startup-message t)
+
